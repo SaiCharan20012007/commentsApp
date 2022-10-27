@@ -1,0 +1,151 @@
+.amber {
+  background-color: #f59e0b;
+  height: 37px;
+  width: 37px;
+  border-radius: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.blue {
+  background-color: #0b69ff;
+  height: 37px;
+  width: 37px;
+  border-radius: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.orange {
+  background-color: #f97316;
+  height: 37px;
+  width: 37px;
+  border-radius: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.emerald {
+  background-color: #10b981;
+  height: 37px;
+  width: 37px;
+  border-radius: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.teal {
+  background-color: #14b8a6;
+  height: 37px;
+  width: 37px;
+  border-radius: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.red {
+  background-color: #b91c1c;
+  height: 37px;
+  width: 37px;
+  border-radius: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.light-blue {
+  background-color: #0ea5e9;
+  height: 37px;
+  width: 37px;
+  border-radius: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Write your CSS here */
+.commenter-profile {
+  height: 37px;
+  width: 37px;
+  border-radius: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.list-container {
+  list-style-type: none;
+  padding-bottom: 5px;
+  width: 100%;
+  padding: 0px;
+  margin-top: 5px;
+  margin-bottom: 20px;
+  border-bottom-style: solid;
+  border-width: 1px;
+  border-color: #475569;
+}
+.list-top-section {
+  display: flex;
+  margin: 10px;
+  align-items: center;
+}
+.name-and-time {
+  margin-left: 10px;
+  font-family: Roboto;
+  color: #1e293b;
+  font-weight: 700;
+}
+.time {
+  color: #64748b;
+  font-size: 12px;
+  margin-left: 15px;
+  font-weight: 400;
+}
+.comment-description {
+  margin-left: 57px;
+  margin-top: -17px;
+  font-size: 15px;
+  color: #7e858e;
+  font-family: Roboto;
+}
+.list-icons {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: -7px;
+  margin-bottom: 10px;
+}
+
+.like-container {
+  display: flex;
+  height: 20px;
+}
+.like {
+  margin-top: 3px;
+  margin-left: 7px;
+  color: #7e858e;
+}
+.likeBtn {
+  border-width: 0px;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.deleteBtn {
+  border-width: 0px;
+  background-color: transparent;
+  cursor: pointer;
+}

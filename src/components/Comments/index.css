@@ -1,0 +1,112 @@
+/* Write your CSS here */
+
+.bg-container {
+  min-height: 100vh;
+  padding: 80px;
+}
+.top-section {
+  min-height: 400px;
+  display: flex;
+  border-bottom-style: solid;
+  border-width: 1px;
+  border-color: #64748b;
+}
+.top-section-left {
+  min-height: 400px;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+.top-section-right {
+  min-height: 400px;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.top-section-title {
+  font-family: Roboto;
+  font-size: 40px;
+  color: #1e293b;
+}
+.top-section-description {
+  font-family: Roboto;
+  color: #475569;
+  font-weight: 700;
+  margin-top: 43px;
+}
+.commenter-name {
+  height: 35px;
+  font-size: 15px;
+  padding: 5px;
+  border-radius: 7px;
+  outline: none;
+  width: 60%;
+  border-width: 2px;
+  font-weight: 600;
+  border-color: #cbd2d9;
+  display: block;
+}
+.commenter-comment {
+  margin-top: 10px;
+  width: 60%;
+  border-width: 2px;
+  font-weight: 600;
+  border-color: #cbd2d9;
+  display: block;
+  min-height: 125px;
+  font-size: 15px;
+  padding: 5px;
+  border-radius: 7px;
+  outline: none;
+  font-family: Roboto;
+}
+.add-comment-button {
+  background-color: #0284c7;
+  padding: 10px;
+  color: white;
+  font-size: 15px;
+  border-width: 0px;
+  cursor: pointer;
+  outline: none;
+  border-radius: 5px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+.comments-image {
+  margin-top: 50px;
+}
+.bottom-section {
+  min-height: 400px;
+  padding: 15px;
+}
+.comments-counter {
+  padding: 10px;
+  background-color: #0284c7;
+  min-width: 35px;
+  border-width: 0px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  display: inline;
+  min-height: 35px;
+  margin-right: 10px;
+}
+.comments-counter-des {
+  margin-top: 7px;
+  color: #1e293b;
+  font-weight: 600;
+  font-size: 15x;
+}
+.comments-counter-section {
+  display: flex;
+}
+.unorderdlist-comments {
+  min-height: 100px;
+  margin: 0px;
+  padding: 0px;
+}
